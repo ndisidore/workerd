@@ -116,22 +116,11 @@ interface VectorizeMatches {
 }
 
 /**
- * Results of an operation that performed a mutation on a set of vectors.
- * Here, `ids` is a list of vectors that were successfully processed.
- */
-interface VectorizeVectorMutation {
-  /* List of ids of vectors that were successfully processed. */
-  ids: string[];
-  /* Total count of the number of processed vectors. */
-  count: number;
-}
-
-/**
 * Results of an operation that performed a mutation on a set of vectors
 * with the v2 version of Vectorize.
 * Here, `mutationId` is the identifier for the last mutation processed by Vectorize.
 */
-interface VectorizeVectorMutationV2 {
+interface VectorizeVectorMutation {
   /* The identifier for the last mutation processed by Vectorize. */
   mutationId: string;
 }
