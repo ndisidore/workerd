@@ -2,7 +2,7 @@
 // Licensed under the Apache 2.0 license found in the LICENSE file or at:
 //     https://opensource.org/licenses/Apache-2.0
 
-/** @type {Array<VectorizeQueryMatch>} */
+/** @type {Array<VectorizeMatch>} */
 const exampleVectorMatches = [
   {
     id: "b0daca4a-ffd8-4865-926b-e24800af2a2d",
